@@ -6,6 +6,34 @@
       "tarih": "12/05/2025",
       "tamamlandi": true,
       "tip": "gorev"
+    },
+    {
+      "ad": "araba yıkama",
+      "aciklama": "araba yıkanacak",
+      "tarih": "14/05/2025",
+      "tamamlandi": true,
+      "tip": "gorev"
+    },
+    {
+      "ad": "m",
+      "aciklama": "d",
+      "tarih": "13/05/2025",
+      "tamamlandi": false,
+      "tip": "gorev"
+    },
+    {
+      "ad": "yazılım",
+      "aciklama": "c#",
+      "tarih": "13/05/2025",
+      "tamamlandi": false,
+      "tip": "gorev"
+    },
+    {
+      "ad": "e",
+      "aciklama": "Açıklama girilmedi",
+      "tarih": "13/05/2025",
+      "tamamlandi": false,
+      "tip": "gorev"
     }
   ]
 }
