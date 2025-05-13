@@ -16,6 +16,7 @@ Bu proje, kullanıcıların günlük görevlerini ve alışkanlıklarını kolay
 
 > Örnek:  
 Uygulama Arayüzü
+
 https://github.com/user-attachments/assets/9d0e7117-a6a4-4e93-9024-ccde3b9f64b8
 
 https://github.com/user-attachments/assets/908b646a-b972-4641-a899-6f7b74ef2c75
