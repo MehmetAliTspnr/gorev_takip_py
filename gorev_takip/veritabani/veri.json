@@ -34,6 +34,13 @@
       "tarih": "13/05/2025",
       "tamamlandi": false,
       "tip": "gorev"
+    },
+    {
+      "ad": "g",
+      "aciklama": "h",
+      "tarih": "15/05/2025",
+      "tamamlandi": true,
+      "tip": "gorev"
     }
   ]
 }

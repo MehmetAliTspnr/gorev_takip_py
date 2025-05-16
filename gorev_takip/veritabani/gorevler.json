@@ -1,0 +1,11 @@
+{
+  "gorevler": [
+    {
+      "ad": "araba",
+      "aciklama": "aa",
+      "tarih": "16/05/2025",
+      "tamamlandi": false,
+      "tip": "gorev"
+    }
+  ]
+}

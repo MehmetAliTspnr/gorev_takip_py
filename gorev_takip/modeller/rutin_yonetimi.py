@@ -1,14 +1,21 @@
-import json
-import os
+from veritabani import rutin_yukle, rutin_kaydet
 
-DOSYA_ADI = "rutinler.json"
+def rutinleri_listele():
+    veri = rutin_yukle()
+    return veri["rutinler"]
 
-def rutinleri_yukle():
-    if not os.path.exists(DOSYA_ADI):
-        return []
-    with open(DOSYA_ADI, "r", encoding="utf-8") as f:
-        return json.load(f)
+def rutin_ekle(ad):
+    veri = rutin_yukle()
+    veri["rutinler"].append({
+        "ad": ad,
+        "tamamlandi": False
+    })
+    rutin_kaydet(veri)
 
-def rutin_kaydet(rutinler):
-    with open(DOSYA_ADI, "w", encoding="utf-8") as f:
-        json.dump(rutinler, f, ensure_ascii=False, indent=4)
+def rutin_tamamla(ad):
+    veri = rutin_yukle()
+    for r in veri["rutinler"]:
+        if r["ad"] == ad:
+            r["tamamlandi"] = True
+            break
+    rutin_kaydet(veri)
